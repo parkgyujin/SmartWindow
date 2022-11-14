@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="cyan">#FF00bfff</color>
+    <color name="cyan2">#FF90d5eb</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <integer name="seek_bar_default">30</integer>
+    <integer name="seek_bar_max">50</integer>
+    <integer name="seek_bar_min">0</integer>
+    <string name="app_name">My Application</string>
+    <string name="auto">AUTO</string>
+    <string name="button">갱신</string>
+    <string name="cctv">CCTV</string>
+    <string name="cctv_video">CCTV 화면</string>
+    <string name="closeWindow">닫기</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_web_client_id" translatable="false">508671178904-09eri72e41esjseu0481vc71nsvk0upt.apps.googleusercontent.com</string>
+    <string name="down">down</string>
+    <string name="error">Error</string>
+    <string name="firebase_database_url" translatable="false">https://fire-detection-768d5-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">508671178904</string>
+    <string name="google_api_key" translatable="false">AIzaSyDsNdhYo_lyBIMXNnUljlx504kA5DigSW8</string>
+    <string name="google_app_id" translatable="false">1:508671178904:android:7d82604a90b0ebb9a278ed</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDsNdhYo_lyBIMXNnUljlx504kA5DigSW8</string>
+    <string name="google_storage_bucket" translatable="false">fire-detection-768d5.appspot.com</string>
+    <string name="left">left</string>
+    <string name="msg_token_fmt" translatable="false">토큰 : %s</string>
+    <string name="n_10ug_m3">미세먼지\n 10ug/m3</string>
+    <string name="n_20_c">온도\n 20\'c</string>
+    <string name="n_40">습도\n 40%</string>
+    <string name="openWindow">열기</string>
+    <string name="project_id" translatable="false">fire-detection-768d5</string>
+    <string name="right">right</string>
+    <string name="set">설정</string>
+    <string name="situation">날씨 상태</string>
+    <string name="smartWindow">스마트 창문</string>
+    <string name="stopWindow">정지</string>
+    <string name="string_cloudy">cloudy</string>
+    <string name="string_rain">rain</string>
+    <string name="string_sun">sun</string>
+    <string name="up">up</string>
+    <string name="window">window</string>
+    <string name="windowManual">창문수동제어</string>
+    <string name="windowsituation">현재 창문은</string>
+    <style name="Theme.SmartWindow" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="colorControlHighlight">#fd4381</item>
+    </style>
+</resources>

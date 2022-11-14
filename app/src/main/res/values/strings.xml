@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="msg_token_fmt" translatable="false">토큰 : %s</string>
+    <string name="n_40">습도\n 40%</string>
+    <string name="n_20_c">온도\n 20\'c</string>
+    <string name="n_10ug_m3">미세먼지\n 10ug/m3</string>
+    <string name="situation">날씨 상태</string>
+    <string name="string_sun">sun</string>
+    <string name="string_cloudy">cloudy</string>
+    <string name="string_rain">rain</string>
+    <string name="windowsituation">현재 창문은</string>
+    <string name="window">window</string>
+    <string name="auto">AUTO</string>
+    <string name="set">설정</string>
+    <string name="cctv">CCTV</string>
+    <string name="cctv_video">CCTV 화면</string>
+    <string name="left">left</string>
+    <string name="up">up</string>
+    <string name="down">down</string>
+    <string name="right">right</string>
+    <string name="button">갱신</string>
+    <string name="error">Error</string>
+    <string name="stopWindow">정지</string>
+    <string name="closeWindow">닫기</string>
+    <string name="openWindow">열기</string>
+    <string name="windowManual">창문수동제어</string>
+    <string name="smartWindow">스마트 창문</string>
+</resources>
