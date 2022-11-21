@@ -28,7 +28,7 @@ class SettingsActivity : AppCompatActivity() {
         loadData()
 
 
-        seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
+       seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
                 tempView.text = progress.toString()
                 saveData()

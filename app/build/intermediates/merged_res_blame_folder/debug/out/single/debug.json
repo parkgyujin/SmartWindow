@@ -32,12 +32,12 @@
         "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\ic_left.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\menu_menu.xml.flat",
         "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\menu\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_right.png.flat",
