@@ -33,16 +33,20 @@ public final class ActivityCctvBinding implements ViewBinding {
   public final ImageButton UpButton;
 
   @NonNull
+  public final ImageButton btncall;
+
+  @NonNull
   public final WebView webView;
 
   private ActivityCctvBinding(@NonNull LinearLayout rootView, @NonNull ImageButton DownButton,
       @NonNull ImageButton LeftButton, @NonNull ImageButton RightButton,
-      @NonNull ImageButton UpButton, @NonNull WebView webView) {
+      @NonNull ImageButton UpButton, @NonNull ImageButton btncall, @NonNull WebView webView) {
     this.rootView = rootView;
     this.DownButton = DownButton;
     this.LeftButton = LeftButton;
     this.RightButton = RightButton;
     this.UpButton = UpButton;
+    this.btncall = btncall;
     this.webView = webView;
   }
 
@@ -97,6 +101,12 @@ public final class ActivityCctvBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btncall;
+      ImageButton btncall = ViewBindings.findChildViewById(rootView, id);
+      if (btncall == null) {
+        break missingId;
+      }
+
       id = R.id.webView;
       WebView webView = ViewBindings.findChildViewById(rootView, id);
       if (webView == null) {
@@ -104,7 +114,7 @@ public final class ActivityCctvBinding implements ViewBinding {
       }
 
       return new ActivityCctvBinding((LinearLayout) rootView, DownButton, LeftButton, RightButton,
-          UpButton, webView);
+          UpButton, btncall, webView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

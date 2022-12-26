@@ -4,15 +4,11 @@
         "source": "com.example.smartwindow.app-main-47:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-mergeDebugResources-44:\\layout\\activity_settings.xml",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\layout\\activity_settings.xml"
+        "merged": "com.example.smartwindow.app-mergeDebugResources-44:/layout/activity_settings.xml",
+        "source": "com.example.smartwindow.app-main-47:/layout/activity_settings.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-mergeDebugResources-44:\\layout\\activity_cctv.xml",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\layout\\activity_cctv.xml"
-    },
-    {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-mergeDebugResources-44:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\layout\\activity_main.xml"
+        "merged": "com.example.smartwindow.app-mergeDebugResources-44:/layout/activity_cctv.xml",
+        "source": "com.example.smartwindow.app-main-47:/layout/activity_cctv.xml"
     }
 ]

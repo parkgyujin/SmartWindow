@@ -1,210 +1,234 @@
 [
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_open.png.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\open.png"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_windowopen.png.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/windowopen.png"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_outline2.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\outline2.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_ic_right.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/ic_right.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_button_round.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\button_round.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.smartwindow.app-main-47:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\layout\\activity_main.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_windowstop.png.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/windowstop.png"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_ic_add.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\ic_add.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_open.png.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/open.png"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_ic_right.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\ic_right.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_up.png.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/up.png"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_ic_thermostat.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\ic_thermostat.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_outline2.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/outline2.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_ic_left.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\ic_left.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_fire.png.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/fire.png"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\menu_menu.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\menu\\menu.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_right.png.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/right.png"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_rain.png.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/rain.png"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_right.png.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\right.png"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_outline5.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/outline5.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_up.png.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\up.png"
+        "merged": "com.example.smartwindow.app-merged_res-45:/layout_activity_settings.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/layout/activity_settings.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_cloudy.png.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\cloudy.png"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_ic_left.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/ic_left.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_ic_masks.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/ic_masks.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_ic_masks.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\ic_masks.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_ic_humidity.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/ic_humidity.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\layout_activity_settings.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\layout\\activity_settings.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/xml_backup_rules.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_ic_up.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/ic_up.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_rain.png.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\rain.png"
+        "merged": "com.example.smartwindow.app-merged_res-45:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.smartwindow.app-main-47:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_ic_down.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/ic_down.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\layout_activity_cctv.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\layout\\activity_cctv.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_window.png.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/window.png"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_linearshape.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\linearshape.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_ic_settings_black.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/ic_settings_black.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_button_round.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/button_round.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\xml\\backup_rules.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.smartwindow.app-main-47:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_ic_settings_black2.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\ic_settings_black2.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_close.png.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/close.png"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_ic_back.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\ic_back.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_ic_settings_black2.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/ic_settings_black2.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_ic_down.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\ic_down.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.smartwindow.app-main-47:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\menu_menu2.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\menu\\menu2.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.smartwindow.app-main-47:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.smartwindow.app-merged_res-45:/menu_menu.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/menu/menu.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.smartwindow.app-main-47:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_outline4.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/outline4.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_ic_sunny.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\ic_sunny.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_sun.png.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/sun.png"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_ic_humidity.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\ic_humidity.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_ic_add.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_windowclose.png.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/windowclose.png"
     },
     {
         "merged": "com.example.smartwindow.app-merged_res-45:/layout_activity_main.xml.flat",
         "source": "com.example.smartwindow.app-main-47:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_sun.png.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\sun.png"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_imagebutton_custom.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/imagebutton_custom.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_imagebutton_custom.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\imagebutton_custom.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_ic_back.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/ic_back.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_ic_settings_black.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\ic_settings_black.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_ic_sunny.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/ic_sunny.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.smartwindow.app-merged_res-45:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.smartwindow.app-main-47:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_ic_clear.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\ic_clear.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_cloudy.png.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/cloudy.png"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_outline3.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/outline3.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_close.png.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\close.png"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_outline.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/outline.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_window.png.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\window.png"
+        "merged": "com.example.smartwindow.app-merged_res-45:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.smartwindow.app-main-47:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_ic_up.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\ic_up.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/menu_menu2.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/menu/menu2.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_ic_clear.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/ic_clear.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_ic_thermostat.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/ic_thermostat.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_down.png.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\down.png"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_ic_setting_black.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/ic_setting_black.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_ic_setting_black.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\ic_setting_black.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_linearshape.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/linearshape.xml"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_left.png.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\left.png"
+        "merged": "com.example.smartwindow.app-merged_res-45:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.smartwindow.app-main-47:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_outline.xml.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\outline.xml"
+        "merged": "com.example.smartwindow.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.smartwindow.app-main-47:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-merged_res-45:\\drawable_skyimage.png.flat",
-        "source": "C:\\Users\\likeg\\.gradle\\daemon\\7.4\\com.example.smartwindow.app-main-47:\\drawable\\skyimage.png"
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_skyimage.png.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/skyimage.png"
+    },
+    {
+        "merged": "com.example.smartwindow.app-merged_res-45:/layout_activity_cctv.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/layout/activity_cctv.xml"
+    },
+    {
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_down.png.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/down.png"
+    },
+    {
+        "merged": "com.example.smartwindow.app-merged_res-45:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.smartwindow.app-merged_res-45:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.smartwindow.app-main-47:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.smartwindow.app-merged_res-45:/drawable_left.png.flat",
+        "source": "com.example.smartwindow.app-main-47:/drawable/left.png"
     }
 ]

@@ -24,13 +24,13 @@ public final class ActivityMainBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final Switch autoswitch;
-
-  @NonNull
   public final TextView cityView;
 
   @NonNull
   public final TextView cityViewText;
+
+  @NonNull
+  public final Button closeBtn;
 
   @NonNull
   public final TextView dust;
@@ -57,10 +57,19 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView humidity;
 
   @NonNull
-  public final ImageView imageView4;
+  public final ImageView imageWindow1;
+
+  @NonNull
+  public final ImageView imageWindow2;
+
+  @NonNull
+  public final ImageView imageWindow3;
 
   @NonNull
   public final Toolbar myToolbar;
+
+  @NonNull
+  public final Button openBtn;
 
   @NonNull
   public final TextView rainText;
@@ -70,6 +79,12 @@ public final class ActivityMainBinding implements ViewBinding {
 
   @NonNull
   public final Button readBtn;
+
+  @NonNull
+  public final Button stopBtn;
+
+  @NonNull
+  public final Switch switch1;
 
   @NonNull
   public final TextView tempView;
@@ -82,6 +97,9 @@ public final class ActivityMainBinding implements ViewBinding {
 
   @NonNull
   public final TextView temperText;
+
+  @NonNull
+  public final TextView textView;
 
   @NonNull
   public final TextView toolbarTitle;
@@ -98,20 +116,22 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final TextView windowstatus2;
 
-  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull Switch autoswitch,
-      @NonNull TextView cityView, @NonNull TextView cityViewText, @NonNull TextView dust,
+  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull TextView cityView,
+      @NonNull TextView cityViewText, @NonNull Button closeBtn, @NonNull TextView dust,
       @NonNull TextView dustText, @NonNull TextView errorText, @NonNull TextView gasText,
       @NonNull TextView gasView, @NonNull TextView heatText, @NonNull TextView humiText,
-      @NonNull TextView humidity, @NonNull ImageView imageView4, @NonNull Toolbar myToolbar,
+      @NonNull TextView humidity, @NonNull ImageView imageWindow1, @NonNull ImageView imageWindow2,
+      @NonNull ImageView imageWindow3, @NonNull Toolbar myToolbar, @NonNull Button openBtn,
       @NonNull TextView rainText, @NonNull TextView rainView, @NonNull Button readBtn,
-      @NonNull TextView tempView, @NonNull TextView tempViewText, @NonNull TextView temper,
-      @NonNull TextView temperText, @NonNull TextView toolbarTitle, @NonNull TextView weatherView,
+      @NonNull Button stopBtn, @NonNull Switch switch1, @NonNull TextView tempView,
+      @NonNull TextView tempViewText, @NonNull TextView temper, @NonNull TextView temperText,
+      @NonNull TextView textView, @NonNull TextView toolbarTitle, @NonNull TextView weatherView,
       @NonNull TextView weatherViewText, @NonNull TextView windowstatus,
       @NonNull TextView windowstatus2) {
     this.rootView = rootView;
-    this.autoswitch = autoswitch;
     this.cityView = cityView;
     this.cityViewText = cityViewText;
+    this.closeBtn = closeBtn;
     this.dust = dust;
     this.dustText = dustText;
     this.errorText = errorText;
@@ -120,15 +140,21 @@ public final class ActivityMainBinding implements ViewBinding {
     this.heatText = heatText;
     this.humiText = humiText;
     this.humidity = humidity;
-    this.imageView4 = imageView4;
+    this.imageWindow1 = imageWindow1;
+    this.imageWindow2 = imageWindow2;
+    this.imageWindow3 = imageWindow3;
     this.myToolbar = myToolbar;
+    this.openBtn = openBtn;
     this.rainText = rainText;
     this.rainView = rainView;
     this.readBtn = readBtn;
+    this.stopBtn = stopBtn;
+    this.switch1 = switch1;
     this.tempView = tempView;
     this.tempViewText = tempViewText;
     this.temper = temper;
     this.temperText = temperText;
+    this.textView = textView;
     this.toolbarTitle = toolbarTitle;
     this.weatherView = weatherView;
     this.weatherViewText = weatherViewText;
@@ -163,12 +189,6 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.autoswitch;
-      Switch autoswitch = ViewBindings.findChildViewById(rootView, id);
-      if (autoswitch == null) {
-        break missingId;
-      }
-
       id = R.id.cityView;
       TextView cityView = ViewBindings.findChildViewById(rootView, id);
       if (cityView == null) {
@@ -178,6 +198,12 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.cityViewText;
       TextView cityViewText = ViewBindings.findChildViewById(rootView, id);
       if (cityViewText == null) {
+        break missingId;
+      }
+
+      id = R.id.closeBtn;
+      Button closeBtn = ViewBindings.findChildViewById(rootView, id);
+      if (closeBtn == null) {
         break missingId;
       }
 
@@ -229,15 +255,33 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView4;
-      ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView4 == null) {
+      id = R.id.imageWindow1;
+      ImageView imageWindow1 = ViewBindings.findChildViewById(rootView, id);
+      if (imageWindow1 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageWindow2;
+      ImageView imageWindow2 = ViewBindings.findChildViewById(rootView, id);
+      if (imageWindow2 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageWindow3;
+      ImageView imageWindow3 = ViewBindings.findChildViewById(rootView, id);
+      if (imageWindow3 == null) {
         break missingId;
       }
 
       id = R.id.my_toolbar;
       Toolbar myToolbar = ViewBindings.findChildViewById(rootView, id);
       if (myToolbar == null) {
+        break missingId;
+      }
+
+      id = R.id.openBtn;
+      Button openBtn = ViewBindings.findChildViewById(rootView, id);
+      if (openBtn == null) {
         break missingId;
       }
 
@@ -256,6 +300,18 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.read_btn;
       Button readBtn = ViewBindings.findChildViewById(rootView, id);
       if (readBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.stopBtn;
+      Button stopBtn = ViewBindings.findChildViewById(rootView, id);
+      if (stopBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.switch1;
+      Switch switch1 = ViewBindings.findChildViewById(rootView, id);
+      if (switch1 == null) {
         break missingId;
       }
 
@@ -280,6 +336,12 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.temperText;
       TextView temperText = ViewBindings.findChildViewById(rootView, id);
       if (temperText == null) {
+        break missingId;
+      }
+
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
         break missingId;
       }
 
@@ -313,10 +375,11 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((LinearLayout) rootView, autoswitch, cityView, cityViewText,
-          dust, dustText, errorText, gasText, gasView, heatText, humiText, humidity, imageView4,
-          myToolbar, rainText, rainView, readBtn, tempView, tempViewText, temper, temperText,
-          toolbarTitle, weatherView, weatherViewText, windowstatus, windowstatus2);
+      return new ActivityMainBinding((LinearLayout) rootView, cityView, cityViewText, closeBtn,
+          dust, dustText, errorText, gasText, gasView, heatText, humiText, humidity, imageWindow1,
+          imageWindow2, imageWindow3, myToolbar, openBtn, rainText, rainView, readBtn, stopBtn,
+          switch1, tempView, tempViewText, temper, temperText, textView, toolbarTitle, weatherView,
+          weatherViewText, windowstatus, windowstatus2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

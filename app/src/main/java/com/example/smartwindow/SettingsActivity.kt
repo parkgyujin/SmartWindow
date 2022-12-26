@@ -10,7 +10,9 @@ import androidx.appcompat.widget.Toolbar
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.ktx.Firebase
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_settings.*
+import kotlinx.android.synthetic.main.activity_settings.tempView
 
 class SettingsActivity : AppCompatActivity() {
 
@@ -25,7 +27,6 @@ class SettingsActivity : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
-        loadData()
 
 
        seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
@@ -67,15 +68,31 @@ class SettingsActivity : AppCompatActivity() {
             }
         })
 
-
-
-        switch1.setOnClickListener(View.OnClickListener { //switch 부분
-            if (switch1.isChecked) {
-                switchTrue()
-            } else {
-                switchFalse()
+        seekBar4.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
+            override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
+                tempView2.text = progress.toString()
+                saveData()
             }
-        });
+
+            override fun onStartTrackingTouch(seekBar: SeekBar?) {
+            }
+
+            override fun onStopTrackingTouch(seekBar: SeekBar?) {
+            }
+        })
+
+        seekBar5.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
+            override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
+                humiView2.text = progress.toString()
+                saveData()
+            }
+
+            override fun onStartTrackingTouch(seekBar: SeekBar?) {
+            }
+
+            override fun onStopTrackingTouch(seekBar: SeekBar?) {
+            }
+        })
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
@@ -134,17 +151,4 @@ class SettingsActivity : AppCompatActivity() {
         myRef.child("humi").setValue(humi)
         myRef.child("dust").setValue(dust)
     }
-
-    private fun loadData() {
-        val pref = getSharedPreferences("pref", 0)
-        tempView.text = pref.getString("temp","")
-        humiView.text = pref.getString("humi", "")
-        dustView.text = pref.getString("dust", "")
-        seekBar.progress = pref.getInt("seekbar", 0)
-        seekBar2.progress = pref.getInt("seekbar2", 0)
-        switch1.isChecked = pref.getBoolean("switch", false)
-    }
-
-
-
 }

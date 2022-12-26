@@ -48,13 +48,15 @@
                     android:id="@+id/temperText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/outline"
                     android:gravity="center"
                     android:text="온도" />
 
                 <TextView
                     android:id="@+id/temper"
-                    android:layout_width="135dp"
+                    android:layout_width="match_parent"
                     android:layout_height="54dp"
+                    android:background="@drawable/outline"
                     android:drawableEnd="@drawable/ic_thermostat"
                     android:gravity="center"
                     android:text=""
@@ -70,12 +72,13 @@
                     android:id="@+id/humiText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/outline"
                     android:gravity="center"
                     android:text="습도" />
 
                 <TextView
                     android:id="@+id/humidity"
-                    android:layout_width="135dp"
+                    android:layout_width="match_parent"
                     android:layout_height="54dp"
                     android:background="@drawable/outline"
                     android:drawableEnd="@drawable/ic_humidity"
@@ -93,17 +96,20 @@
                     android:id="@+id/dustText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/outline"
                     android:gravity="center"
                     android:text="미세먼지" />
 
                 <TextView
                     android:id="@+id/dust"
-                    android:layout_width="141dp"
+                    android:layout_width="match_parent"
                     android:layout_height="54dp"
+                    android:background="@drawable/outline"
                     android:drawableEnd="@drawable/ic_masks"
                     android:gravity="center"
+                    android:singleLine="true"
                     android:text=""
-                    android:textSize="24sp" />
+                    android:textSize="18sp" />
             </LinearLayout>
 
         </LinearLayout>
@@ -127,6 +133,7 @@
                     android:id="@+id/rainText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/outline"
                     android:gravity="center"
                     android:text="빗물감지" />
 
@@ -134,6 +141,7 @@
                     android:id="@+id/rainView"
                     android:layout_width="135dp"
                     android:layout_height="54dp"
+                    android:background="@drawable/outline"
                     android:gravity="center" />
             </LinearLayout>
 
@@ -146,6 +154,7 @@
                     android:id="@+id/gasText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/outline"
                     android:gravity="center"
                     android:text="가스감지" />
 
@@ -164,7 +173,7 @@
                 android:layout_weight="1"
                 android:drawableTop="@drawable/ic_sunny"
                 android:gravity="bottom|center"
-                android:text="21º/10º" />
+                android:text="최고,최저온도" />
 
         </LinearLayout>
     </LinearLayout>
@@ -173,8 +182,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="75dp"
-        android:orientation="horizontal"
-        android:background="@drawable/outline2">
+        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="135dp"
@@ -185,14 +193,16 @@
                 android:id="@+id/cityViewText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/outline"
                 android:gravity="center"
                 android:text="현재 지역" />
 
             <TextView
                 android:id="@+id/cityView"
-                android:layout_width="135dp"
-                android:layout_height="54dp"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
                 android:layout_marginBottom="308dp"
+                android:background="@drawable/outline"
                 android:gravity="center"
                 android:text=""
                 android:textSize="24sp"
@@ -212,17 +222,18 @@
                 android:id="@+id/weatherViewText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/outline"
                 android:gravity="center"
                 android:text="오늘의 날씨" />
 
             <TextView
                 android:id="@+id/weatherView"
-                android:layout_width="135dp"
-                android:layout_height="54dp"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
                 android:background="@drawable/outline"
                 android:gravity="center"
                 android:text=""
-                android:textSize="24sp"
+                android:textSize="16sp"
                 tools:layout_editor_absoluteX="146dp"
                 tools:layout_editor_absoluteY="74dp" />
         </LinearLayout>
@@ -237,13 +248,15 @@
                 android:id="@+id/tempViewText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/outline"
                 android:gravity="center"
-                android:text="지역 온도" />
+                android:text="체감 온도" />
 
             <TextView
                 android:id="@+id/tempView"
-                android:layout_width="135dp"
-                android:layout_height="54dp"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/outline"
                 android:gravity="center"
                 android:text=""
                 android:textSize="24sp"
@@ -255,7 +268,19 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="292dp">
+        android:layout_height="263dp">
+
+        <Button
+            android:id="@+id/openBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="열기"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.099"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/switch1"
+            app:layout_constraintVertical_bias="0.878" />
 
         <TextView
             android:id="@+id/windowstatus"
@@ -270,7 +295,20 @@
             app:layout_constraintVertical_bias="0.098" />
 
         <ImageView
-            android:id="@+id/imageView4"
+            android:id="@+id/imageWindow1"
+            android:layout_width="178dp"
+            android:layout_height="183dp"
+            android:contentDescription="@string/window"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.935"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.15"
+            app:srcCompat="@drawable/windowopen" />
+
+        <ImageView
+            android:id="@+id/imageWindow2"
             android:layout_width="178dp"
             android:layout_height="183dp"
             android:contentDescription="@string/window"
@@ -279,7 +317,20 @@
             app:layout_constraintHorizontal_bias="0.931"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/open" />
+            app:layout_constraintVertical_bias="0.06"
+            app:srcCompat="@drawable/windowclose" />
+
+        <ImageView
+            android:id="@+id/imageWindow3"
+            android:layout_width="178dp"
+            android:layout_height="183dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.935"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/windowstop" />
 
         <TextView
             android:id="@+id/windowstatus2"
@@ -295,14 +346,14 @@
             app:layout_constraintVertical_bias="0.03" />
 
         <Switch
-            android:id="@+id/autoswitch"
+            android:id="@+id/switch1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:minHeight="48dp"
-            android:text="AUTO모드"
+            android:text="수동모드"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.115"
+            app:layout_constraintHorizontal_bias="0.051"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -313,9 +364,49 @@
             android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.394"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.055" />
+            app:layout_constraintVertical_bias="0.048" />
+
+        <Button
+            android:id="@+id/closeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:text="닫기"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.058"
+            app:layout_constraintStart_toEndOf="@+id/openBtn"
+            app:layout_constraintTop_toBottomOf="@+id/switch1"
+            app:layout_constraintVertical_bias="0.878" />
+
+        <Button
+            android:id="@+id/stopBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:text="정지"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/openBtn"
+            app:layout_constraintTop_toBottomOf="@+id/switch1"
+            app:layout_constraintVertical_bias="0.878" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="자동모드"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/switch1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.501" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

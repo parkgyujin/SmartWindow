@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from D:\SmartWindow\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from D:\SmartWindow\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from D:\SmartWindow\app\src\main\AndroidManifest.xml:2:1-54:12
+ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:2:1-58:12
 MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\likeg\.gradle\caches\transforms-3\5f5f49463b5cc60847bd2e918b0de108\transformed\viewbinding-7.3.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-messaging-ktx:23.1.0] C:\Users\likeg\.gradle\caches\transforms-3\49e7f849db8bed48528c9cf2b2d15091\transformed\firebase-messaging-ktx-23.1.0\AndroidManifest.xml:17:1-34:12
 MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\likeg\.gradle\caches\transforms-3\75441f79dad3865f8e74baa1a3b0d384\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:2:1-17:12
@@ -13,7 +13,7 @@ MERGED from [androidx.preference:preference:1.2.0] C:\Users\likeg\.gradle\caches
 MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\likeg\.gradle\caches\transforms-3\6579b16cf3d4a6b149b11c5b932fa5d0\transformed\fragment-ktx-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity-ktx:1.2.2] C:\Users\likeg\.gradle\caches\transforms-3\3b4689be81704f035285dd79c1ba33fa\transformed\activity-ktx-1.2.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\likeg\.gradle\caches\transforms-3\d6c14312505b089d977b0fa38cbf2fae\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.8.0-alpha02] C:\Users\likeg\.gradle\caches\transforms-3\20dfc63486d42a73381a07d169577274\transformed\material-1.8.0-alpha02\AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.material:material:1.8.0-alpha03] C:\Users\likeg\.gradle\caches\transforms-3\569f669f25fc7fa59eaa3af4d1fee171\transformed\material-1.8.0-alpha03\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\likeg\.gradle\caches\transforms-3\c81af243876b4029be1b58d7ec5359bf\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\likeg\.gradle\caches\transforms-3\4b79ed7c5c67eba2c21f8bd5009665f1\transformed\appcompat-resources-1.5.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\likeg\.gradle\caches\transforms-3\ed0bae27ccc9d5f62b1af35ead4c6e55\transformed\appcompat-1.5.1\AndroidManifest.xml:17:1-22:12
@@ -93,28 +93,29 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\likeg\.gradle\caches\transforms-3\95ce555b8125ed620ce4efab07ac323d\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\likeg\.gradle\caches\transforms-3\63f4c2d57d2d0a56063b656f3719bbbb\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\likeg\.gradle\caches\transforms-3\f04940eaa0c21139a5dc00ad3b52744c\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\likeg\.gradle\caches\transforms-3\7fdef8b9fc05f2cbd4db09b8e98dd88a\transformed\volley-1.2.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\likeg\.gradle\caches\transforms-3\2599878179112f4177dbad717cc8a3f5\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\SmartWindow\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from D:\SmartWindow\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from D:\SmartWindow\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:2:1-58:12
 	package
-		INJECTED from D:\SmartWindow\app\src\main\AndroidManifest.xml
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:2:1-54:12
-		INJECTED from D:\SmartWindow\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:2:1-58:12
+		INJECTED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\SmartWindow\app\src\main\AndroidManifest.xml
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:2:1-54:12
-		INJECTED from D:\SmartWindow\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:2:1-58:12
+		INJECTED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from D:\SmartWindow\app\src\main\AndroidManifest.xml
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:2:1-54:12
-		INJECTED from D:\SmartWindow\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:2:1-58:12
+		INJECTED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\likeg\.gradle\caches\transforms-3\f76c3767aae33519611ba6ca824a7be6\transformed\firebase-database-20.1.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\likeg\.gradle\caches\transforms-3\f76c3767aae33519611ba6ca824a7be6\transformed\firebase-database-20.1.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\likeg\.gradle\caches\transforms-3\dc9baba75e443e23c8990c208a271ca0\transformed\firebase-auth-21.1.0\AndroidManifest.xml:23:5-67
@@ -134,17 +135,21 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\likeg\.gradle\caches\transforms-3\13dc4b0b644b0584a3e4909b3c588812\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\likeg\.gradle\caches\transforms-3\13dc4b0b644b0584a3e4909b3c588812\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:25:5-67
 	android:name
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.CALL_PHON
+ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:6:5-68
+	android:name
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:6:22-65
 application
-ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:7:5-52:19
+ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:8:5-56:19
 MERGED from [com.google.firebase:firebase-messaging-ktx:23.1.0] C:\Users\likeg\.gradle\caches\transforms-3\49e7f849db8bed48528c9cf2b2d15091\transformed\firebase-messaging-ktx-23.1.0\AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.firebase:firebase-messaging-ktx:23.1.0] C:\Users\likeg\.gradle\caches\transforms-3\49e7f849db8bed48528c9cf2b2d15091\transformed\firebase-messaging-ktx-23.1.0\AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\likeg\.gradle\caches\transforms-3\75441f79dad3865f8e74baa1a3b0d384\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\likeg\.gradle\caches\transforms-3\75441f79dad3865f8e74baa1a3b0d384\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\likeg\.gradle\caches\transforms-3\84a4bf724ee336a276c22fbbb2b7042f\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:10:5-18:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\likeg\.gradle\caches\transforms-3\84a4bf724ee336a276c22fbbb2b7042f\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:10:5-18:19
-MERGED from [com.google.android.material:material:1.8.0-alpha02] C:\Users\likeg\.gradle\caches\transforms-3\20dfc63486d42a73381a07d169577274\transformed\material-1.8.0-alpha02\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.material:material:1.8.0-alpha02] C:\Users\likeg\.gradle\caches\transforms-3\20dfc63486d42a73381a07d169577274\transformed\material-1.8.0-alpha02\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.8.0-alpha03] C:\Users\likeg\.gradle\caches\transforms-3\569f669f25fc7fa59eaa3af4d1fee171\transformed\material-1.8.0-alpha03\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.8.0-alpha03] C:\Users\likeg\.gradle\caches\transforms-3\569f669f25fc7fa59eaa3af4d1fee171\transformed\material-1.8.0-alpha03\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\likeg\.gradle\caches\transforms-3\c81af243876b4029be1b58d7ec5359bf\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\likeg\.gradle\caches\transforms-3\c81af243876b4029be1b58d7ec5359bf\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-messaging:23.1.0] C:\Users\likeg\.gradle\caches\transforms-3\40ea4465207eb5be3eab333fd85ea61f\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:30:5-59:19
@@ -210,73 +215,75 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\li
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] C:\Users\likeg\.gradle\caches\transforms-3\f16929eae7a9fe407a04294dcb91ee97\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:9:9-41
 	android:fullBackupContent
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:12:9-54
 	android:roundIcon
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:14:9-54
 	tools:targetApi
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:16:9-29
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:18:9-28
 	android:icon
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:14:9-65
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:16:9-65
 	android:dataExtractionRules
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:9:9-65
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:11:9-65
 	android:usesCleartextTraffic
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:15:9-44
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:17:9-44
 activity#com.example.smartwindow.SettingsActivity
-ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:17:9-23:20
+ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:21:9-27:20
 	android:exported
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:19:13-37
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:18:13-45
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:22:13-45
 meta-data#android.app.lib_name
-ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:20:13-22:36
+ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:24:13-26:36
 	android:value
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:22:17-33
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:26:17-33
 	android:name
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:21:17-52
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:25:17-52
 activity#com.example.smartwindow.CctvActivity
-ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:24:9-30:20
+ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:28:9-34:20
 	android:exported
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:26:13-37
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:25:13-41
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:29:13-41
 activity#com.example.smartwindow.MainActivity
-ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:31:9-43:20
+ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:35:9-47:20
 	android:exported
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:33:13-36
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:37:13-36
 	android:name
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:32:13-41
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:36:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:34:13-38:29
+ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
-ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:35:17-69
+ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:35:25-66
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:37:17-77
+ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:37:27-74
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:41:27-74
 service#com.example.smartwindow.FcmReceiveService
-ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:45:9-51:19
+ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:49:9-55:19
 	android:exported
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:47:13-36
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:51:13-36
 	android:name
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:46:13-46
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:50:13-46
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:48:13-50:29
+ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:52:13-54:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:49:17-78
+ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:53:17-78
 	android:name
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml:49:25-75
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml:53:25-75
 uses-sdk
-INJECTED from D:\SmartWindow\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\SmartWindow\app\src\main\AndroidManifest.xml
-INJECTED from D:\SmartWindow\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\likeg\.gradle\caches\transforms-3\5f5f49463b5cc60847bd2e918b0de108\transformed\viewbinding-7.3.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\likeg\.gradle\caches\transforms-3\5f5f49463b5cc60847bd2e918b0de108\transformed\viewbinding-7.3.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-messaging-ktx:23.1.0] C:\Users\likeg\.gradle\caches\transforms-3\49e7f849db8bed48528c9cf2b2d15091\transformed\firebase-messaging-ktx-23.1.0\AndroidManifest.xml:20:5-22:41
@@ -295,8 +302,8 @@ MERGED from [androidx.activity:activity-ktx:1.2.2] C:\Users\likeg\.gradle\caches
 MERGED from [androidx.activity:activity-ktx:1.2.2] C:\Users\likeg\.gradle\caches\transforms-3\3b4689be81704f035285dd79c1ba33fa\transformed\activity-ktx-1.2.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\likeg\.gradle\caches\transforms-3\d6c14312505b089d977b0fa38cbf2fae\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\likeg\.gradle\caches\transforms-3\d6c14312505b089d977b0fa38cbf2fae\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.8.0-alpha02] C:\Users\likeg\.gradle\caches\transforms-3\20dfc63486d42a73381a07d169577274\transformed\material-1.8.0-alpha02\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.8.0-alpha02] C:\Users\likeg\.gradle\caches\transforms-3\20dfc63486d42a73381a07d169577274\transformed\material-1.8.0-alpha02\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.8.0-alpha03] C:\Users\likeg\.gradle\caches\transforms-3\569f669f25fc7fa59eaa3af4d1fee171\transformed\material-1.8.0-alpha03\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.8.0-alpha03] C:\Users\likeg\.gradle\caches\transforms-3\569f669f25fc7fa59eaa3af4d1fee171\transformed\material-1.8.0-alpha03\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\likeg\.gradle\caches\transforms-3\c81af243876b4029be1b58d7ec5359bf\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\likeg\.gradle\caches\transforms-3\c81af243876b4029be1b58d7ec5359bf\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\likeg\.gradle\caches\transforms-3\4b79ed7c5c67eba2c21f8bd5009665f1\transformed\appcompat-resources-1.5.1\AndroidManifest.xml:20:5-44
@@ -455,18 +462,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\likeg\.gradle\ca
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\likeg\.gradle\caches\transforms-3\63f4c2d57d2d0a56063b656f3719bbbb\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\likeg\.gradle\caches\transforms-3\f04940eaa0c21139a5dc00ad3b52744c\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\likeg\.gradle\caches\transforms-3\f04940eaa0c21139a5dc00ad3b52744c\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\likeg\.gradle\caches\transforms-3\7fdef8b9fc05f2cbd4db09b8e98dd88a\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\likeg\.gradle\caches\transforms-3\7fdef8b9fc05f2cbd4db09b8e98dd88a\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\likeg\.gradle\caches\transforms-3\2599878179112f4177dbad717cc8a3f5\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\likeg\.gradle\caches\transforms-3\2599878179112f4177dbad717cc8a3f5\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from D:\SmartWindow\app\src\main\AndroidManifest.xml
-INJECTED from D:\SmartWindow\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\SmartWindow\app\src\main\AndroidManifest.xml
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml
-		INJECTED from D:\SmartWindow\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\SmartWindow\app\src\main\AndroidManifest.xml
-		ADDED from D:\SmartWindow\app\src\main\AndroidManifest.xml
-		INJECTED from D:\SmartWindow\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_Project\SmartWindow\app\src\main\AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-messaging-ktx:23.1.0] C:\Users\likeg\.gradle\caches\transforms-3\49e7f849db8bed48528c9cf2b2d15091\transformed\firebase-messaging-ktx-23.1.0\AndroidManifest.xml:25:9-31:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\likeg\.gradle\caches\transforms-3\75441f79dad3865f8e74baa1a3b0d384\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:8:9-14:19

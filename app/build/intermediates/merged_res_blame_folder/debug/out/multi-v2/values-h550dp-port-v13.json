@@ -4,7 +4,7 @@
             "outputFile": "com.example.smartwindow.app-mergeDebugResources-43:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\likeg\\.gradle\\caches\\transforms-3\\20dfc63486d42a73381a07d169577274\\transformed\\material-1.8.0-alpha02\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "source": "C:\\Users\\likeg\\.gradle\\caches\\transforms-3\\569f669f25fc7fa59eaa3af4d1fee171\\transformed\\material-1.8.0-alpha03\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

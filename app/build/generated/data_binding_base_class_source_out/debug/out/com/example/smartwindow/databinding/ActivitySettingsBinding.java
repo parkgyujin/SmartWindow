@@ -4,9 +4,7 @@ package com.example.smartwindow.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.SeekBar;
-import android.widget.Switch;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -30,10 +28,10 @@ public final class ActivitySettingsBinding implements ViewBinding {
   public final TextView humiView;
 
   @NonNull
-  public final Toolbar myToolbar;
+  public final TextView humiView2;
 
   @NonNull
-  public final Button resetBtn;
+  public final Toolbar myToolbar;
 
   @NonNull
   public final SeekBar seekBar;
@@ -45,10 +43,19 @@ public final class ActivitySettingsBinding implements ViewBinding {
   public final SeekBar seekBar3;
 
   @NonNull
-  public final Switch switch1;
+  public final SeekBar seekBar4;
+
+  @NonNull
+  public final SeekBar seekBar5;
 
   @NonNull
   public final TextView tempView;
+
+  @NonNull
+  public final TextView tempView2;
+
+  @NonNull
+  public final TextView temptextView;
 
   @NonNull
   public final TextView temptextView2;
@@ -66,21 +73,25 @@ public final class ActivitySettingsBinding implements ViewBinding {
   public final TextView toolbarTitle;
 
   private ActivitySettingsBinding(@NonNull ConstraintLayout rootView, @NonNull TextView dustView,
-      @NonNull TextView humiView, @NonNull Toolbar myToolbar, @NonNull Button resetBtn,
+      @NonNull TextView humiView, @NonNull TextView humiView2, @NonNull Toolbar myToolbar,
       @NonNull SeekBar seekBar, @NonNull SeekBar seekBar2, @NonNull SeekBar seekBar3,
-      @NonNull Switch switch1, @NonNull TextView tempView, @NonNull TextView temptextView2,
+      @NonNull SeekBar seekBar4, @NonNull SeekBar seekBar5, @NonNull TextView tempView,
+      @NonNull TextView tempView2, @NonNull TextView temptextView, @NonNull TextView temptextView2,
       @NonNull TextView textView2, @NonNull TextView textView3, @NonNull TextView textView4,
       @NonNull TextView toolbarTitle) {
     this.rootView = rootView;
     this.dustView = dustView;
     this.humiView = humiView;
+    this.humiView2 = humiView2;
     this.myToolbar = myToolbar;
-    this.resetBtn = resetBtn;
     this.seekBar = seekBar;
     this.seekBar2 = seekBar2;
     this.seekBar3 = seekBar3;
-    this.switch1 = switch1;
+    this.seekBar4 = seekBar4;
+    this.seekBar5 = seekBar5;
     this.tempView = tempView;
+    this.tempView2 = tempView2;
+    this.temptextView = temptextView;
     this.temptextView2 = temptextView2;
     this.textView2 = textView2;
     this.textView3 = textView3;
@@ -127,15 +138,15 @@ public final class ActivitySettingsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.my_toolbar;
-      Toolbar myToolbar = ViewBindings.findChildViewById(rootView, id);
-      if (myToolbar == null) {
+      id = R.id.humiView2;
+      TextView humiView2 = ViewBindings.findChildViewById(rootView, id);
+      if (humiView2 == null) {
         break missingId;
       }
 
-      id = R.id.resetBtn;
-      Button resetBtn = ViewBindings.findChildViewById(rootView, id);
-      if (resetBtn == null) {
+      id = R.id.my_toolbar;
+      Toolbar myToolbar = ViewBindings.findChildViewById(rootView, id);
+      if (myToolbar == null) {
         break missingId;
       }
 
@@ -157,15 +168,33 @@ public final class ActivitySettingsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.switch1;
-      Switch switch1 = ViewBindings.findChildViewById(rootView, id);
-      if (switch1 == null) {
+      id = R.id.seekBar4;
+      SeekBar seekBar4 = ViewBindings.findChildViewById(rootView, id);
+      if (seekBar4 == null) {
+        break missingId;
+      }
+
+      id = R.id.seekBar5;
+      SeekBar seekBar5 = ViewBindings.findChildViewById(rootView, id);
+      if (seekBar5 == null) {
         break missingId;
       }
 
       id = R.id.tempView;
       TextView tempView = ViewBindings.findChildViewById(rootView, id);
       if (tempView == null) {
+        break missingId;
+      }
+
+      id = R.id.tempView2;
+      TextView tempView2 = ViewBindings.findChildViewById(rootView, id);
+      if (tempView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.temptextView;
+      TextView temptextView = ViewBindings.findChildViewById(rootView, id);
+      if (temptextView == null) {
         break missingId;
       }
 
@@ -199,9 +228,9 @@ public final class ActivitySettingsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivitySettingsBinding((ConstraintLayout) rootView, dustView, humiView, myToolbar,
-          resetBtn, seekBar, seekBar2, seekBar3, switch1, tempView, temptextView2, textView2,
-          textView3, textView4, toolbarTitle);
+      return new ActivitySettingsBinding((ConstraintLayout) rootView, dustView, humiView, humiView2,
+          myToolbar, seekBar, seekBar2, seekBar3, seekBar4, seekBar5, tempView, tempView2,
+          temptextView, temptextView2, textView2, textView3, textView4, toolbarTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
